@@ -13,17 +13,4 @@ st.markdown(
 
 
 st.header("1.اعلانات الوظائف لكل منطقة")
-region_counts = df['region'].value_counts().reset_index()
-region_counts.columns = ['region', 'count']
-
-# Colors for the pie chart
-colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f']
-
-# Create a pie chart
-fig, ax = plt.subplots()
-ax.pie(region_counts['count'], labels=region_counts['region'], colors=colors, autopct='%1.1f%%', startangle=90)
-ax.axis('equal')  # Equal aspect ratio ensures that pie chart is circular.
-
-# Set title
-plt.title("إعلانات الوظائف لكل المنطقة")
 
