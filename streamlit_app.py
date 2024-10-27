@@ -12,4 +12,4 @@ st.markdown(
 
 
 st.header("1.اعلانات الوظائف لكل منطقة")
-st.image(""C:\Users\مهند\OneDrive\سطح المكتب\tuwaiq labs\Usecase-5\chart_1.png"")
+st.image("C:\Users\مهند\OneDrive\سطح المكتب\tuwaiq labs\Usecase-5\chart_1.png")
